@@ -1,0 +1,12 @@
+__build_info:
+  rime_version: 1.7.0
+  timestamps:
+    ibus_rime: 1611525213
+    ibus_rime.custom: 1613749981
+config_version: 1.0
+style:
+  base_offset: 6
+  font_face: "I.MingCP,.PingFang SC,HanaMinA,HanaMinB"
+  font_point: 18
+  horizontal: true
+  inline_preedit: false

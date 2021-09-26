@@ -1,0 +1,11 @@
+alias ls="ls --color=auto"
+alias coding="cd ~/ownCloud/Notes/ipynb/Codes && jupyter lab"
+alias netd="netctl stop-all"
+alias nethome="netctl start devolo"
+alias nettqo="netctl start TQO"
+alias o="xdg-open"
+alias zip="7z"
+alias clean="ncdu"
+alias pdftool="stapler"
+alias tlmgr='/usr/share/texmf-dist/scripts/texlive/tlmgr.pl --usermode'
+alias refreshsource="reflector --verbose --latest 5 --sort rate --save /etc/pacman.d/mirrorlist"

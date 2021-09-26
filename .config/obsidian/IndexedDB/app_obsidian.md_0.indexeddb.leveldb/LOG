@@ -1,0 +1,9 @@
+2021/09/19-12:09:29.865 fc5 Reusing MANIFEST /home/x/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2021/09/19-12:09:29.865 fc5 Recovering log #12
+2021/09/19-12:09:29.866 fc5 Reusing old log /home/x/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000012.log 
+2021/09/19-12:09:29.885 fc5 Compacting 1@1 + 1@2 files
+2021/09/19-12:09:29.893 fc5 Generated table #15@1: 2863 keys, 824347 bytes
+2021/09/19-12:09:29.893 fc5 Compacted 1@1 + 1@2 files => 824347 bytes
+2021/09/19-12:09:29.894 fc5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/09/19-12:09:29.894 fc5 Delete type=2 #10
+2021/09/19-12:09:29.894 fc5 Delete type=2 #13

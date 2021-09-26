@@ -1,0 +1,16 @@
+patch:
+  style:
+    horizontal: true
+    inline_preedit: false
+  style/base_offset: 6
+  ##  us_keyboard_layout: true                 # 键盘选项：应用美式键盘布局
+  ## 状态通知，适当，也可设为全开（always）全关（never）
+  ##  show_notifications_when: appropriate
+  "style/font_face": "I.MingCP,.PingFang SC,HanaMinA,HanaMinB"
+  style/font_point: 18                      # 字号
+
+app_options:
+  com.wolfram.Mathematica:
+    ascii_mode: true
+
+#YAML格式是通过空格对齐的，所以要注意！

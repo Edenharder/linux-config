@@ -1,0 +1,63 @@
+__build_info:
+  rime_version: 1.7.0
+  timestamps:
+    default: 1613750787
+    default.custom: 1613752557
+    key_bindings: 1613750787
+    key_bindings.custom: 0
+    latex.custom: 0
+    latex.schema: 1613749995
+    punctuation: 1613750787
+    punctuation.custom: 0
+engine:
+  processors:
+    - ascii_composer
+    - selector
+    - key_binder
+    - speller
+    - punctuator
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator
+key_binder:
+  bindings:
+    - {accept: bracketleft, send: Page_Up, when: paging}
+    - {accept: bracketright, send: Page_Down, when: has_menu}
+    - {accept: "Shift+space", select: .next, when: always}
+  import_preset: default
+menu:
+  page_size: 7
+punctuator:
+  full_shape:
+    " ": {commit: " "}
+  half_shape:
+    " ": {commit: " "}
+  use_space: true
+schema:
+  author:
+    - "polyhedron<biopolyhedron@gmail.com>"
+  description: |
+    輸入Latex和德语字母。之后可以考虑支持西歐、土耳其、越南、梵文和阿拉伯文轉寫、大部分國際音標
+    特殊字符均用';'爲前加符；上標後加q，下標後加Q；組合上加符f，組合下加符F
+    如有改進建議，歡迎和作者聯繫！
+    
+  name: Latex
+  schema_id: latex
+  version: 2020.05.08
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`1234567890-=[];',./~!^*()+:\"<>?"
+  auto_select: true
+  delimiter: ""
+translator:
+  comment_format:
+    - "xform/^~(.*)$/$1/"
+  dictionary: latex
+  enable_sentence: false
+  enable_user_dict: false

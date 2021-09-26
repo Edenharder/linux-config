@@ -1,0 +1,122 @@
+#  default.custom.yaml
+patch:
+    menu/page_size: 7      #这是之前增加的候选词数量。
+    schema_list:           #“输入选单”中激活的输入方案定义。
+        - schema: double_pinyin_flypy
+        - schema: latex
+     #  - schema: emoji
+
+#翻页键，一定要注意空格。
+    "key_binder/bindings":
+        - { when: paging, accept: bracketleft, send: Page_Up }
+        - { when: has_menu, accept: bracketright, send: Page_Down }
+        - { when: always, accept: Shift+space, select: .next }
+
+    ascii_composer:
+      good_old_caps_lock: true
+      switch_key:
+        Caps_Lock: clear
+        Control_L: noop
+        Control_R: noop
+        Eisu_toggle: clear
+        #Shift_L: inline_ascii
+        Shift_R: commit_text
+#下面定义“输入选单”的切换控制
+    switcher:
+        abbreviate_options: true
+        caption: "〔切换〕"          #把默认的“方案選單”修改为了“切换”。
+        fold_options: true
+        hotkeys:
+            - "Control+grave"       #默认方案
+            - "Control+Shift+grave"   #默认方案
+        option_list_separator: "／"   #以下都为默认custom.yaml文件的默认配置，copy过来就可以。
+        save_options:
+            - full_shape
+            - ascii_punct
+            - simplification
+            - extended_charset
+
+#下面定义自己常用的英文字母加数字，这样就省去了中间敲回车。但好像每个只能设定一个。
+    recognizer/patterns/rime123: "^yiluhuakai[0-9]+$"
+    recognizer/patterns/rimeime: "^guokr[-_.0-9]*$"
+
+
+# 定制标点测试
+    punctuator:
+      full_shape:
+        " ": {commit: "　"}
+        "!": {commit: "！"}
+        "\"": {pair: ["“", "”"]}
+        "#": ["＃", "⌘"]
+        #"$": ["￥", "$", "€", "£", "¥", "¢", "¤"]
+        "%": ["％", "°", "℃"]
+        "&": "＆"
+        "'": {pair: ["‘", "’"]}
+        "(": "（"
+        ")": "）"
+        "*": ["＊", "·", "・", "×", "※", "❂"]
+        "+": "＋"
+        ",": {commit: "，"}
+        "-": "－"
+        .: {commit: "。"}
+        "/": ["／", "÷"]
+        ":": {commit: "："}
+        ";": {commit: "；"}
+        "<": ["《", "〈", "«", "‹"]
+        "=": "＝"
+        ">": ["》", "〉", "»", "›"]
+        "?": {commit: "？"}
+        "@": ["＠", "☯"]
+        "[": ["「", "【", "〔", "［"]
+        "\\": ["、", "＼"]
+        "]": ["」", "】", "〕", "］"]
+        "^": {commit: "……"}
+        _: "——"
+        #"`": "｀"
+        "{": ["『", "〖", "｛"]
+        "|": ["·", "｜", "§", "¦"]
+        "}": ["』", "〗", "｝"]
+        "~": "～"
+      half_shape:
+        "!": {commit: "！"}
+        "\"": {pair: ["“", "”"]}
+        "#": "#"
+        #"$": ["￥", "$", "€", "£", "¥", "¢", "¤"]
+        "%": ["%", "％", "°", "℃"]
+        "&": "&"
+        "'": {pair: ["‘", "’"]}
+        "(": ["(", "（"]
+        ")": [")", "）"]
+        #"*": ["*", "＊", "·", "・", "×", "※", "❂"]
+        "+": "+"
+        ",": {commit: "，"}
+        "-": "-"
+        .: {commit: "。"}
+        "/": ["/", "、", "／", "÷"]
+        ":": [":", "："]
+        ";": {commit: "；"}
+        "<": ["《", "<", "〈", "«", "‹"]
+        "=": "="
+        ">": ["》", ">", "〉", "»", "›"]
+        "?": {commit: "？"}
+        "@": "@"
+        #"[": ["[", "「", "【", "〔", "［"]
+        #"\\": ["、", "\\", "＼"]
+        #"]": ["]", "」", "】", "〕", "］"]
+        #"^": ["……", "^"]
+        #_: "——"
+        "`": {commit: "`"} #"`"
+        #"{": ["{", "『", "〖", "｛"]
+        "|": ["·", "|", "｜", "§", "¦"]
+        #"}": ["}", "』", "〗", "｝"]
+        "~": ["~", "～"]
+    reverse_lookup:
+      dictionary: stroke
+      enable_completion: true
+      prefix: "|"
+      suffix: "'"
+      tips: 〔筆畫〕
+      preedit_format:
+        - xlit/hspnz/一丨丿丶乙/
+      comment_format:
+        - xform/([nl])v/$1ü/

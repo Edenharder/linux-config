@@ -1,0 +1,58 @@
+{
+    "com.github.kuenzelit.ulauncher-firefox-bookmarks": {
+        "id": "com.github.kuenzelit.ulauncher-firefox-bookmarks",
+        "url": "https://github.com/KuenzelIT/ulauncher-firefox-bookmarks",
+        "updated_at": "2021-08-21T11:51:13.407624",
+        "last_commit": "77f1de0adfc2e79ce767f645ae8ad0a0dda2783e",
+        "last_commit_time": "2019-12-07T17:27:46"
+    },
+    "com.github.friday.ulauncher-clipboard": {
+        "id": "com.github.friday.ulauncher-clipboard",
+        "url": "https://github.com/friday/ulauncher-clipboard",
+        "updated_at": "2021-08-21T11:54:50.717021",
+        "last_commit": "0ebca6c8b118e6bc6eed32aea68f252d37e9c2f2",
+        "last_commit_time": "2021-07-03T12:35:44"
+    },
+    "com.github.rabin-io.ulauncher-windows-switcher": {
+        "id": "com.github.rabin-io.ulauncher-windows-switcher",
+        "url": "https://github.com/rabin-io/ulauncher-windows-switcher",
+        "updated_at": "2021-08-21T12:36:41.893723",
+        "last_commit": "3262ec2674e2c7da93467fa409041798991dc88b",
+        "last_commit_time": "2019-11-24T15:50:43"
+    },
+    "com.github.mikebarkmin.ulauncher-duckduckgo": {
+        "id": "com.github.mikebarkmin.ulauncher-duckduckgo",
+        "url": "https://github.com/mikebarkmin/ulauncher-duckduckgo",
+        "updated_at": "2021-08-21T12:55:32.032672",
+        "last_commit": "f2ea6a187082c600a59acc9cca6e288d96f66cc0",
+        "last_commit_time": "2021-08-07T18:51:44"
+    },
+    "com.github.mikebarkmin.ulauncher-obsidian": {
+        "id": "com.github.mikebarkmin.ulauncher-obsidian",
+        "url": "https://github.com/mikebarkmin/ulauncher-obsidian",
+        "updated_at": "2021-08-21T12:56:31.229631",
+        "last_commit": "85c869eda769eb7cd70b341451281038b5473b92",
+        "last_commit_time": "2021-07-18T21:10:03"
+    },
+    "com.github.egehangundogdu.ulauncher-covid19": {
+        "id": "com.github.egehangundogdu.ulauncher-covid19",
+        "url": "https://github.com/EgehanGundogdu/ulauncher-covid19",
+        "updated_at": "2021-08-21T12:56:57.537334",
+        "last_commit": "657c04df52e373c51c03b01f413089b8a31f7589",
+        "last_commit_time": "2021-03-18T21:44:01"
+    },
+    "com.github.isacikgoz.ukill": {
+        "id": "com.github.isacikgoz.ukill",
+        "url": "https://github.com/isacikgoz/ukill",
+        "updated_at": "2021-08-21T12:58:03.059081",
+        "last_commit": "bc50d9f41d46b6813a5aeebddd15734dcdb9d8db",
+        "last_commit_time": "2019-05-28T18:30:00"
+    },
+    "com.github.tchar.ulauncher-albert-calculate-anything": {
+        "id": "com.github.tchar.ulauncher-albert-calculate-anything",
+        "url": "https://github.com/tchar/ulauncher-albert-calculate-anything",
+        "updated_at": "2021-08-21T13:02:08.115961",
+        "last_commit": "ee0903174c8b87cd1f7c3b6c1acef10702547507",
+        "last_commit_time": "2021-08-12T06:39:56"
+    }
+}

@@ -1,0 +1,5 @@
+2021/09/24-09:07:36.221 75dd Reusing MANIFEST /home/x/.config/skypeforlinux/Local Storage/leveldb/MANIFEST-000001
+2021/09/24-09:07:36.222 75dd Recovering log #412
+2021/09/24-09:07:36.222 75dd Reusing old log /home/x/.config/skypeforlinux/Local Storage/leveldb/000412.log 
+2021/09/24-09:09:27.202 75f0 Level-0 table #416: started
+2021/09/24-09:09:27.227 75f0 Level-0 table #416: 83774 bytes OK

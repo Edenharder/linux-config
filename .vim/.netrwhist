@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/x/.cat_installer'
+let g:netrw_dirhist_6='/home/x/.config'
+let g:netrw_dirhist_5='/usr/lib/modules/5.13.13-arch1-1/build/drivers/hwmon'
+let g:netrw_dirhist_4='/home/x/.config/falkon/profiles/manjaro'
+let g:netrw_dirhist_3='/etc/modprobe.d'
+let g:netrw_dirhist_2='/home/x/.config/clipit'
+let g:netrw_dirhist_1='/home/x/.config/dmenu-extended/config'
