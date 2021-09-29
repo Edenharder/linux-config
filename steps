@@ -1,1 +1,2 @@
 1. `QT_STYLE_OVERRIDE=kvantum` in `/etc/environment` with `Kvantum` installed.
+2. `pacman -S alsa-utils`, `amixer sset Master unmute`, `alsamixer` adjust a little bit
